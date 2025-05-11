@@ -1,0 +1,40 @@
+@font-face {
+    font-family: "LeagueSpartanVariable";
+    src: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/2101521/LeagueSpartanVariable.ttf");
+  
+    font-weight: 200 900;
+  }
+  
+  @font-face {
+      font-family: 'Anybody';
+      src: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/61488/ETCAnybodyPB.woff2') format('woff2-variations');
+      font-display: block;
+      font-weight: 200 900;
+      font-stretch: 10% 400%;
+  }
+  
+  body {
+    height: 100vh;
+    width: 370px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    background: #111;
+    color: #fff;
+    line-height: 15px;
+    font-size: 30px;
+    font-family: 'LeagueSpartanVariable', Courier, monospace;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    
+  }
+  
+  div {
+    width: 25px;
+    height: 25px;
+    text-align: center;
+    font-variation-settings: "wght" var(--wt);
+    font-weight: 200;
+  }
